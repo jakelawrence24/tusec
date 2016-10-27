@@ -357,6 +357,12 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
 }
 
+#meetlabel{
+  color: #b00f3a;
+  font-weight: bold;
+}
+
+
 footer {
   color: white;
 }
