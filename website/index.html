@@ -22,13 +22,6 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body id="page-top" class="index">
@@ -40,7 +33,6 @@
             <div class="navbar-header page-scroll">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <img id='logot' src="img/logo2nt.png">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">> TUsec<span class="blinking-cursor">_</span></a>
@@ -88,14 +80,23 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
+            <div class="row" id="ml">
                 <div class="col-lg-12 text-center">
                     <h2>Upcoming Meetings</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-            <img id="hh" src='img/hard_hat.png'>
-            <h3 id="uc">Under Construction</h2>
+            <div class="meeting-list">
+                <ul align="left" id="mll"><strong>Meeting:</strong> Responsible Disclosure <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Category of bugs/vulnerbilities <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> SQL Injection <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> OWASP Top 10 <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Security Certificates <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Password Cracking <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Encryption <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Network Security <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+                <ul align="left" id="mll"><strong>Meeting:</strong> Exploitation <strong>Date:</strong> TBD <strong>Location:</strong> TBD </ul>
+            </div>
         </div>
     </section>
 
@@ -137,14 +138,15 @@
                     </div>
                     <div class="footer-col col-md-4" align="center">
                         <h3><img id='gh' src='img/Octocat.png'> Github</h3>
-                        <p><a href="https://github.com/srguglielmo/tusec">https://github.com/srguglielmo/tusec</a></p>
+                        <p><a href="https://github.com/srguglielmo/tusec">github.com/srguglielmo/tusec</a></p>
                     </div>
                     <div class="footer-col col-md-4" align="center">
                         <h3><img id='em' src='img/email.png'> Email List</h3>
                         <p>Sign up for our email list below!</p>
-                        <form action="demo_form.asp">
+                        <p><strong>Coming Soon!</strong></p>
+                        <!--<form action="demo_form.asp">
                             <input id="emi" type="text" name="email" placeholder="Enter your email."><br>
-                        </form>
+                        </form>-->
                     </div>
                 </div>
         </div>
@@ -157,7 +159,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; TUsec.org 2016
+                        &copy; 2016 TUsec.org 
                     </div>
                 </div>
             </div>
