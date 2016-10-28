@@ -52,6 +52,11 @@ p.small {
   height: 10%;
 }
 
+#tw{
+  width: 10%;
+  height: 10%;
+}
+
 #em{
   width: 10%;
   height: 10%;
@@ -83,6 +88,11 @@ p.small {
   width: 6%;
   width: 6%;
   padding-bottom: 30px;
+}
+
+#cu{
+  font-size:40px;
+  padding-top: 20px;
 }
 
 .im{
@@ -401,22 +411,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 #join{
-  width: 60%;
-  height: 60%;
   position: relative;
   left: 25;
   top: 50;
 }
 
-#joinol{
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 140px;
-  top: 113px;
-}
 
 footer {
   color: white;
